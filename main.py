@@ -5,7 +5,6 @@ from moviepy.editor import VideoFileClip, TextClip, CompositeVideoClip, vfx
 from moviepy.video.fx.all import crop
 from moviepy.editor import *
 from scipy.ndimage import gaussian_filter
-from skimage.filters import gaussian
 import cv2
 import numpy as np
 from PIL import Image, ImageFilter

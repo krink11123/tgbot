@@ -55,7 +55,7 @@ def chat_with_gpt3(session, prompt, model="gpt-3.5-turbo-16k-0613", max_tokens=1
         )
         
         # Return the response and updated session
-        return response['choices'][0]['message']['content'].strip(), session
+        return response.choices[0].message.content.strip(), session
     except Exception as e:
         return str(e), session
 
@@ -69,7 +69,7 @@ def get_session(user_id, username):
 
     new_session = {
         "muted" : False,
-        "username" : "",
+        "username" : username,
         "user_id" : user_id,
         "session_content" : []
     }
@@ -118,9 +118,8 @@ async def handle_new_message(event):
     if event.is_private and get_user_mute_status(event.sender_id) == False:
         #print(event.message.message)
         while True:
-            sender_entity = await client.get_entity(sender_id)
             load_config()
-            session, already_chatted = get_session(event.sender_id, sender_entity.first_name)
+            session, already_chatted = get_session(event.sender_id, event.sender_id)
             print(already_chatted)
             if already_chatted == False:
                 automated_response, session = chat_with_gpt3(session, f"{prompt} {event.message.message} .How much is vip whats in vip and how can i pay?")
