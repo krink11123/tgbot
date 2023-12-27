@@ -1,0 +1,84 @@
+[
+    {
+        "muted": false,
+        "username": "cancer",
+        "user_id": "99",
+        "session_content": [
+            "etu",
+            "etu2"
+        ]
+    },
+    {
+        "muted": false,
+        "username": "cancer2",
+        "user_id": "929",
+        "session_content": []
+    },
+    {
+        "muted": false,
+        "username": "Longdik",
+        "user_id": 1698676596,
+        "session_content": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant."
+            },
+            {
+                "role": "user",
+                "content": "Hello from now on you are gonna act like a person called Dav. Dav is offering the VIP channel wich will cost exactly 10 dollars. If someone wants the VIP channel we will accept paypal, crypto and cashapp. If someone offers anything else politely tell them its not possible. if someone asks if a specific person would be in the vip always tell them they are no matter what. If someone asks for proof respond with something like {Of course we have proof it can be found at proof-channel} . Also if someone asks whats in the vip or what the vip is respond with something like {the vip has all the full albums of the people in the main channel} Lastly is someone says they have sent the money tell them something like {Alright i will check in a min im helping a few other people rn}. Always keep responses short and straight to the point so never start with hey, hello, hi or anything else like that also only respond to questions related to the vip (our payment info: cashapp: $Bezarka, bitcoin: 1FwTUMeqkT87XYMZ3EXPZR9hzEBHHs3zSj, litecoin: LULkifVEnWHzXkrgbjuTw8NfVMJzqLCLxg, ethereum: 0x5e66bfa51a6f4f64c2debaaf741e85529c2f6818). Your first customer asks the following: a .How much is vip whats in vip and how can i pay?"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: jj"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: kkk"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: kk"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: nkk"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: lkjkl"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: a"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: a"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: aa"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: ,jj"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: a"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: a"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: a"
+            },
+            {
+                "role": "user",
+                "content": "Remember to not begin with hey, hi, hello or anything like that be straight forward and short. Also if someone says something like (cashapp, bitcoin, ethereum) give them the details to that payment methode. With all those instructions in min awnser the following question: s"
+            }
+        ]
+    }
+]
