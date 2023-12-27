@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Accounts</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+    </style>
+</head>
+<body>
+    <a href="/"><h1>Accounts</h1></a><h1>Cards</h1>
+
+
+{% for account in accounts %}
+<div class="cardfield">
+    <form action="" method="POST">
+        <h1 class="cardnumber">{{account.Cardnumber}}</h1>
+        <h1 class="UsedShops">Used Shops: </h1><br><br><br>
+        {% if account.Mediamarkt == true %}
+        <img src="{{url_for('static', filename='images/media.png')}}" class="cardwebshop">
+        {% endif %}
+        {% if account.Bol == true %}
+        <img src="{{url_for('static', filename='images/bol.png')}}" class="cardwebshop">
+        {% endif %}
+        {% if account.Coolblue == true %}
+        <img src="{{url_for('static', filename='images/blue.png')}}" class="cardwebshop">
+        {% endif %}
+        {% if account.Nedgame == true %}
+        <img src="{{url_for('static', filename='images/nedgame.png')}}" class="cardwebshop">
+        {% endif %}
+        {% if account.Amazon == true %}
+        <img src="{{url_for('static', filename='images/amazon.png')}}" class="cardwebshop">
+        {% endif %}
+        <button type="submit" name="submit" class="accountnamebutton" value="{{account.Cardnumber}}">verwijder</button>
+    </form>
+</div>
+{% endfor %}    
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Accounts</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+    </style>
+</head>
+<body>
+
+    <center>
+        {% for session in data %}
+        <form action="" method="POST">
+        <div class="accountfield">
+            <input value="{{ session.username }}" class="accountnamenamefill" name="Name">aaa</input><br><br><br>
+            {% if session.muted %}
+                <button type="submit" name="submit" class="accountname" value="{{ session.user_id }}">unmute</button>
+            {% else %}
+                <button type="submit" name="submit" class="accountname" value="{{ session.user_id }}">mute</button>
+            {% endif %}
+        </div>
+        </form>
+        {% endfor %}
+    </center>
+
+</body>
+</html>

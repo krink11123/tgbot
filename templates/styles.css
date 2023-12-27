@@ -1,0 +1,65 @@
+@font-face{font-family:pp-sans-big-regular;src:url(https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.eot);src:url(https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.eot?#iefix) format("embedded-opentype"),url(https://www.paypalobjects.com/paypal-ui/fonts/PayPalSansBig-Regular.woff2) format("woff2"),url(https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.svg) format("svg");}
+body{
+background-color: #05080d;
+}
+h1{
+font-family: pp-sans-big-regular;
+color: white;
+text-align: center;
+font-size: 50px
+}
+center {
+padding-left: 165px;
+}
+.accountfield {
+height: 470px;
+width: 350px;
+float: left;
+background-color: #0a101a;
+border-radius: 10px;
+padding-top: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-left: 10px;
+}
+
+.webshoplogo {
+float: right;
+border-style: solid;
+border-radius: 9px;
+border-width: 0px;
+height: 60px;
+margin-right: 15px;
+margin-top: -407px;
+}
+
+.accountname {
+float: left;
+font-family: pp-sans-big-regular;
+color: white;
+font-size: 25px;
+background-color:#2c3c4d;
+margin-top: 15px;
+margin-left: 30px;
+}
+
+input {
+  border-radius: 4px;
+  background: var(--color-background);
+  padding: calc(4 * var(--size-bezel));
+  margin-top: calc(4 * var(--size-bezel));
+  border-radius: 10px;
+  border: 2px solid var(--color-shadow, );
+}
+
+button {
+  width: 125px;
+  border-radius: 10px;
+  border: 2px solid var(--color-shadow, );
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}

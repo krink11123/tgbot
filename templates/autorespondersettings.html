@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Accounts</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+    </style>
+</head>
+<body>
+
+    <center>
+        <form action="" method="POST">
+        <div class="accountfield2">
+            <input value="{{ data.gpt_key }}" class="accountnamenamefill" name="gpt_key"></input>
+            <input value="{{ data.prompt }}" class="accountnamenamefill" name="prompt"></input>
+            <input value="{{ data.price }}" class="accountnamenamefill" name="price"></input><br>
+            <p class="labels">cashapp:</p>
+            <input value="{{ data.cashapp }}" class="accountnamenamefill" name="cashapp"></input><br>
+            <p class="labels">btc:</p>
+            <input value="{{ data.bitcoin }}" class="accountnamenamefill" name="bitcoin"></input><br><br>
+            <p class="labels">ltc:</p>
+            <input value="{{ data.litecoin }}" class="accountnamenamefill" name="litecoin"></input><br>
+            <p class="labels">eth:</p>
+            <input value="{{ data.ethereum }}" class="accountnamenamefill" name="ethereum"></input><br>
+            <button type="submit" name="submit" class="accountname" value="">save</button>
+        </div>
+        </form>
+
+    </center>
+
+</body>
+</html>

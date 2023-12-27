@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+</head>
+<body>
+    <h1>Upload Files</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <center>
+        <div class="accountfield">
+        <input type="file" name="file" multiple>
+        <button type="submit" name='submit' value="Upload" class="accountname">upload</button>
+        </div>
+
+        <div class="accountfield">
+        <p class="labels">file amount:</p>
+        <h1>{{file_amount}}</h1>
+        </div>
+
+        <form action="" method="POST">
+        <div class="accountfield2">
+            <p class="labels">upload every:</p>
+            <input value="{{ data.upload_every }}" class="accountnamenamefill" name="upload_every"></input>
+            <p class="labels">custom message:</p>
+            <input value="{{ data.custom_message }}" class="accountnamenamefill" name="custom_message"></input>
+            <p class="labels">message frequency:</p>
+            <input value="{{ data.custom_message_frequency }}" class="accountnamenamefill" name="custom_message_frequency"></input><br>
+            <p class="labels">custom_message2:</p>
+            <input value="{{ data.custom_message2 }}" class="accountnamenamefill" name="custom_message2"></input><br>
+            <p class="labels">message2 frequency:</p>
+            <input value="{{ data.custom_message2_frequency }}" class="accountnamenamefill" name="custom_message2_frequency"></input><br><br>
+            <p class="labels">channel:</p>
+            <input value="{{ data.channel }}" class="accountnamenamefill" name="channel"></input><br>
+            <button type="submit" name="submit" class="accountname" value="save">save</button>
+        </div>
+        </form>
+
+        </center>
+
+    </form>
+</body>
+</html>

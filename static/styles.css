@@ -1,0 +1,168 @@
+@font-face{font-family:pp-sans-big-regular;src:url(https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.eot);src:url(https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.eot?#iefix) format("embedded-opentype"),url(https://www.paypalobjects.com/paypal-ui/fonts/PayPalSansBig-Regular.woff2) format("woff2"),url(https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.svg) format("svg");}
+body {
+background-image: url('https://preview.redd.it/this-pic-of-nba-youngboy-is-iconic-v0-ef50etm93gka1.jpg?width=640&crop=smart&auto=webp&s=9859d15a7c3d565a4bdfdaba91cd373e27afafd9');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: white;
+}
+h1{
+font-family: pp-sans-big-regular;
+color: white;
+text-align: center;
+font-size: 50px
+}
+p{
+font-family: pp-sans-big-regular;
+color: white;
+text-align: center;
+font-size: 25px
+}
+center {
+padding-left: 165px;
+}
+.accountfield {
+height: 150px;
+width: 350px;
+float: left;
+background-color: #0a101a;
+border-radius: 10px;
+padding-top: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-left: 10px;
+}
+.labels{
+  margin-bottom: -10px;
+  padding-bottom: 0;
+  margin-left: 33px;
+  text-align: left;
+}
+
+
+.accountfield2 {
+height: 550px;
+width: 350px;
+float: left;
+background-color: #0a101a;
+border-radius: 10px;
+padding-top: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-left: 10px;
+}
+
+.webshoplogo {
+float: right;
+border-style: solid;
+border-radius: 9px;
+border-width: 0px;
+height: 40px;
+margin-right: 36px;
+margin-top: -538px;
+}
+
+.accountnamename {
+float: left;
+font-family: pp-sans-big-regular;
+color: white;
+font-size: 25px;
+background-color:#2c3c4d;
+margin-top: 15px;
+margin-left: 30px;
+width: 230px;
+}
+
+.accountname {
+float: left;
+font-family: pp-sans-big-regular;
+color: white;
+font-size: 25px;
+background-color:#2c3c4d;
+margin-top: 15px;
+margin-left: 30px;
+width: 280px;
+}
+.accountnamenamefill{
+float: left;
+font-family: pp-sans-big-regular;
+color: white;
+font-size: 25px;
+background-color:#2c3c4d;
+margin-top: 15px;
+margin-left: 30px;
+width: 280px;
+}
+
+input {
+  border-radius: 4px;
+  background: var(--color-background);
+  padding: calc(4 * var(--size-bezel));
+  margin-top: calc(4 * var(--size-bezel));
+  border-radius: 10px;
+  border: 2px solid var(--color-shadow, );
+}
+
+button {
+  width: 125px;
+  border-radius: 10px;
+  border: 2px solid var(--color-shadow, );
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.webshopdrop{
+  float: right;
+  margin-right: 35px;
+  margin-top: 13px;
+  font-family: pp-sans-big-regular;
+  color: white;
+  font-size: 25px;
+  background-color:#2c3c4d;
+  border-radius: 10px;
+  border: 2px solid var(--color-shadow, );
+}
+.cardfield{
+  height: 360px;
+  width: 350px;
+  float: left;
+  background-color: #0a101a;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.cardnumber{
+  font-size: 30px;
+}
+.UsedShops{
+  font-size: 15px;
+  float: left;
+  margin-left: 10px;
+}
+.cardwebshop{
+  float: left;
+  border-style: solid;
+  border-radius: 9px;
+  border-width: 0px;
+  height: 70px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.accountnamebutton {
+float: left;
+font-family: pp-sans-big-regular;
+color: white;
+font-size: 25px;
+background-color:#2c3c4d;
+margin-top: 15px;
+position: relative;
+width: 300px;
+margin-left: 25px;
+}
